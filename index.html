@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:400, 600" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header id="header" class="header">
+            <nav id="nav-bar" class="nav navbar navbar-fixed-top">
+                <div class="container">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#demo" class="nav-link">Demo</a>
+                    <a href="#team" class="nav-link">Team</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <div class="jumbotron">
+            <div class="container">
+                <div class="main">
+                    <h1>We are a company</h1>
+                    <a href="#about" class="btn-main">Get Started</a>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="supporting">
+            <div class="container">
+                <div class="col">
+                    <img src="design.svg" alt="Pencil">
+                    <h2>Design</h2>
+                    <p>Make your projects look great and interact beautifully.</p>
+                    <a href="#contact" class="learn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="develop.svg" alt="Code Closing Tag">
+                    <h2>Develop</h2>
+                    <p>Use modern tools to turn your design into a web site.</p>
+                    <a href="#contact" class="learn">Learn More</a>
+                </div>
+                <div class="col" class="last">
+                    <img src="deploy.svg" alt="Up Arrow">
+                    <h2>Deploy</h2>
+                    <p>Deploy quickly and easily with our user-friendly GUI.</p>
+                    <a href="#contact" class="learn">Learn More</a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div id="demo" class="supporting alt">
+            <div class="container">
+                <h2>Demo</h2>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/epUk3T2Kfno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div id="team" class="supporting">
+            <div class="container">
+                <h2>Meet the team!</h2>
+                <div class="col">
+                    <img src="otter1.jpeg" alt="Otter 1">
+                    <h3>Arthur</h3>
+                </div>
+                <div class="col">
+                    <img src="otter2.jpg" alt="Otter 2">
+                    <h3>Harold</h3>
+                </div>
+                <div class="col" class="last">
+                    <img src="otter3.jpg" alt="Otter 3">
+                    <h3>Penelope</h3>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div id="contact" class="supporting alt">
+            <div class="container">
+                <h2>Contact us for pricing and more info!</h2>
+                <form id="form" action="confirmation.html" method="get">
+                    <div class="form-group">
+                        <label for="firstName">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="First name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Last name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email address" />
+                    </div>
+                    <button id="submit" type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <p>&copy; A Company 2018</p>
+            </div>
+        </div>
+    </body>
+</html>
